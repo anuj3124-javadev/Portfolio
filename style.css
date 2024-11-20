@@ -1,0 +1,159 @@
+body {
+    background-color: white; /* Black background */
+    color: black; /* White text */
+  }
+  .card {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent card body */
+    border: none;
+  }
+  .card-body {
+    color: black;
+  }
+  .btn {
+    color: #000;
+    background-color: #fff;
+    border: none;
+  }
+  .btn:hover {
+    color: black;
+    background-color: #444;
+  }
+  
+/* Navbar */
+/* display background color black on navbar scroll */
+ .navbar {
+    background-color: yellow ;
+    border-bottom: 1px solid #444;
+    
+  }
+  .navbar .nav-link {
+    
+    color: white;
+  }
+  .navbar .nav-link:hover {
+    color: black;
+  }
+  
+.navbarScroll.navbarDark {
+    background-color: black ;
+    color: white;
+}
+
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/yellow');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text { 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+
+/* footer section starts */
+footer{
+  background-color: #211e39;
+}
+
+footer .link-group a{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+footer .link-group a:hover{
+  color: #fca61f;
+}
+.social-links button{
+  border: none;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  padding: 14px 15px 10px 15px;
+}
+.social-links .dribble{
+  color: #f33a7e;
+}
+.social-links button:hover{
+  color: #fff;
+  transform: translateY(-20px);
+  transition-duration: 1s;
+}
+.social-links .dribble:hover{
+  background-color: #f33a7e;
+}
+.social-links .whatsapp{
+  color: #25D366;
+}
+.social-links .whatsapp:hover{
+  background-color: #25D366;
+}
+.social-links .behance{
+  color: #255afc;
+}
+.social-links .behance:hover{
+  background-color: #255afc;
+}
+
+/* styling back to top button */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  font-size: 1.4rem;
+  background-color: #fca61f;
+  color: #fff;
+  animation: pulse 3s infinite;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
